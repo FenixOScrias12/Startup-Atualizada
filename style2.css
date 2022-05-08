@@ -1,112 +1,77 @@
-/* resetando o CSS */
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;    
-    border: none;
-    color: #323232;
 }
-
-input, label {
-    display: block;
-    width: 100%;
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 3%;
+    font-size: 40px;
 }
-
-input:focus, label:focus {
-    outline: none;
+#subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 1%;
+    font-size: 35px;
 }
-
-a{
-    color: #4682b4;
+fieldset{
+    border: 0;
 }
-
 body{
-    padding-top: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin-left: 36%;
+    margin-top: 2%;
+    color: black;
+    justify-content: center;
     background-image: linear-gradient(90deg, #323232, #3ee67b, #093018);
-    background-size: cover;
 }
-/* formulário */
-#main-container {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    padding: 25px;
-    border-radius: 10px;
+input, select, textarea, button{
+    border-radius: 5px;
 }
-
-#main-container h1 {
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 1.6rem; /* adaptada ao elemento root */
+.campo{
+    margin-bottom: 2em;
 }
-
-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.campo label{
+    margin-bottom: 0.3em;
+    display: block;
 }
-
-.full-box {
-    flex: 1 1 100%;
-    position: relative;
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
 }
-
-.half-box {
-    flex: 1 1 45%;
-    position: relative;
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.9em;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
 }
-
-.spacing {
-    margin-right: 2.5%;
+.campo select option{
+    padding-right: 1em;
 }
-
-label {
-    font-weight: bold;
-    font-size: .8rem;
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: lightgray;
 }
-
-input {
-    border-bottom: 2px solid #323232;
-    padding: 10px;
-    font-size: .9rem;
-    margin-bottom: 40px;
-}
-
-input:focus {
-    border-color: #4682b4;
-}
-
-input[type="submit"] {
-    background-color: #4682b4;
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    height: 40px;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-input[type="submit"]:hover {
-    background-color: #323232;
-    transition: 0.8s;
-}
-#agreement {
-    margin-right: 5px;
-}
-
-#agreement, #agreement-label {
-    display: inline-block;
-    width: auto;
-}
-
-/* validações */
-.error-validation {
-    color: #ff0000;
+.botao{
+    font-size: 2em;
+    background-color:#4682b4;
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 57px;
-    font-size: .8rem;
+    top: 75%;
+    left: 42%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
-.template {
-    display: none;
+.botao:hover{
+    background-color: #323232;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
 }
+textarea {
+    resize: none;
+ }

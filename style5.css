@@ -1,0 +1,112 @@
+* {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.rank1{
+    display: none;
+}
+
+.rank{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.colocar{
+    background-color: #d9e9d8;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 2px solid #092919;
+    margin-top: 11vh;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+}
+
+.desafios{
+    display: flex;
+    justify-content: center;
+}
+
+.desafios .card{
+    width: 100%;
+    padding: 2%;
+}
+
+.table-striped{
+    width: 5;
+}
+
+@media screen and (max-width: 1000px) {
+	.desafios {
+	align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+    body{
+        width: 100%;
+    }
+
+	.rank {
+	width: 100%;
+    font-size: 10px;
+  }
+
+  .desafios{
+      padding: 2%;
+      text-align: center;
+      width: 100px;
+      margin: 0 auto;
+  }
+
+  .desafios .card{
+      width: 50px;
+  }
+
+  .desafios img{
+    margin: 0 auto;
+    width: 170px;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    body{
+        width: 110%;
+    }
+
+}
+
+@media screen and (max-width: 281px) {
+
+    body{
+        width: 120%;
+    }
+
+}
+.pontuacao{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+

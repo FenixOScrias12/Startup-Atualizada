@@ -7,31 +7,18 @@
     list-style: none;
     box-sizing: border-box;
 }
-.article{
-    text-align: center;
+#materiais-container{
    background-color: #d9e9d8;
    border: 3px solid #fff;
+   padding: 3%;
+   text-align: center;
 }
-.article h2{
-    border-bottom: 2px solid #092919;
-    margin-top: 11vh;
+h2{
     font-weight: bold;
-}
-
-
-.sessao_noticias{
-	justify-content: space-around;
-	display:flex;
+    border-bottom: 2px solid #092919;
 }
 
 footer.bg-light text-center text-lg-start{
 	background-color: #092919;
 }
 
-    
-@media screen and (max-width: 500px) {
-	.sessao_noticias {
-	align-items: center;
-    flex-direction: column;
-  }
-}

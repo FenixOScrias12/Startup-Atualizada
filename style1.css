@@ -13,25 +13,18 @@
     background-color: #d9e9d8;
 }
 
-.qualidade_ar{
+.sua_cidade{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+.imagem{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    align-items: center;
 }
 
-.noticias_sp h2{
-    border-bottom: 2px solid #092919;
-    margin-top: 11vh;
-    font-weight: bold; 
-    text-align: center;
-}
-
-.n1{
-    display: flex;
-    justify-content: space-around;
-}
-
-.n2{
-    display: flex;
-    justify-content: space-around;
+.imagem .img img{
+    width: 100%;
 }

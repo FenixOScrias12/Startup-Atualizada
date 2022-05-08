@@ -1,0 +1,77 @@
+* {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+#quemSomos-container{
+    text-align: center;
+   background-color: #d9e9d8;
+   border: 3px solid #fff;
+   padding: 3%;
+}
+h1{
+    border-bottom: 2px solid #092919;
+    margin-top: 11vh;
+    font-weight: bold;  
+}
+
+.quemsomos{
+    text-align: center;
+}
+
+.integrantes{
+    padding: 2%;
+}
+
+.startup{
+    display: flex;
+    justify-content: space-around;
+}
+
+.startup b{
+    font-size: 15px;
+}
+
+.startup h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.visao{
+    background-color: #8bab89;
+    padding: 2%;
+    width: 200px;
+}
+
+.visao p{
+    max-height: 30px;
+    font-size: 15px;
+}
+
+.missao{
+    background-color: #8bab89;
+    padding: 2%;
+    width: 200px;
+}
+
+.missao p{
+    font-size: 18px;
+}
+.valores{
+    background-color: #8bab89;
+    padding: 2%;
+    width: 250px;
+}
+
+.valores p{
+    font-size: 18px;
+}
