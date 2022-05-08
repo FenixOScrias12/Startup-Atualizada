@@ -1,0 +1,80 @@
+/* resetando o CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;    
+    border: none;
+    color: #323232;
+}
+body{
+    background-image: linear-gradient(90deg, #323232, #3ee67b, #093018);
+    background-size: cover;
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+a, label{
+    font-size: .8rem;
+}
+a:hover {
+    color:#323232;
+}
+
+/* container login */
+#login-container {
+    background-color: #fff;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 30px;
+    margin-top: 10vh; 
+    border-radius: 10px;
+    text-align: center;
+}
+h1 {
+	font-weight: bold;
+}
+/* formulário */
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label, input {
+    display: block;
+    width: 300px;
+    text-align: left;
+}
+label {
+    font-weight: bold;
+}
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input:focus {
+    border-color: #4682b4;
+}
+#forgot-pass {
+    display: block;
+    text-align: right;
+}
+input[type="submit"] {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color:#4682b4;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #323232;
+    transition: 0.8s;
+}

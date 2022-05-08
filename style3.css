@@ -1,0 +1,86 @@
+/* resetando o CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: #323232;
+}
+
+body{
+    background-image: linear-gradient(90deg, #323232, #3ee67b, #093018);
+    background-size: cover;
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+ label {
+    font-size: .8rem;
+}
+/* container recuperar */
+#regain-container {
+    margin-top: 10vh; 
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+/* formulário */
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label, input, p, h1{
+    text-align: left;
+}
+label, input {
+    display: block;
+    width: 350px;
+}
+label{
+    font-weight: bold;
+}
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 60px;
+}
+input:focus {
+    border-color: #4682b4;
+}
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #4682b4;
+}
+input[type="submit"]:hover{
+    background-color:#323232;
+    transition: 0.8s;
+}
+p {
+ font-size: 24px;   
+ margin-top: 15px;
+}
+/* validações */
+.error-validation {
+    color: #ff0000;
+    position: absolute;
+    margin-top: -148px;
+    font-size: .8rem;
+}
+.template {
+    display: none;
+}
